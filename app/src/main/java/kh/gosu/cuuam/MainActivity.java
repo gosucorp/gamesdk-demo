@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void setupSDK() {
-        GameSDK.sdkInitialize(this, "Android_Test", new IGameInitListener() {
+        GameSDK.sdkInitialize(this, "m997.amvymisxliwdlop", new IGameInitListener() {
             @Override
             public void onSuccess() {
                 onLogin();

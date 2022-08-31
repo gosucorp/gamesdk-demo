@@ -5,7 +5,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "kh.gosu.cuuam"
+        applicationId "kh.gamo.cb9yin"
         minSdkVersion 16
         targetSdkVersion 30
         versionCode 1
@@ -34,7 +34,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
-    
+
     // GRPC Deps
     implementation 'io.grpc:grpc-okhttp:1.35.0'
     implementation 'io.grpc:grpc-protobuf-lite:1.35.0'
