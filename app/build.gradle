@@ -48,7 +48,8 @@ dependencies {
     //for showLogin facebook sdk
     implementation 'com.facebook.android:facebook-android-sdk:latest.release'
     //for in app billing
-    implementation 'com.android.billingclient:billing:3.0.0'
+    implementation 'com.android.billingclient:billing:5.0.0'
+    implementation 'com.google.guava:guava:31.1-android'
     //for sigin GG SDK
     implementation 'com.google.android.gms:play-services-auth:17.0.0'
     //for firebase
