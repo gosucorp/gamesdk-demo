@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void setupSDK() {
-        GameSDK.sdkInitialize(this, "m997.amvymisxliwdlop", new IGameInitListener() {
+        GameSDK.sdkInitialize(this, "m932.zfabeqgmenvyllc", new IGameInitListener() {
             @Override
             public void onSuccess() {
                 onLogin();
@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
             public void onSingleClick(View var1) {
                 if(GameConstant.iap_product_ids.size() <= 0) return;
 
-                String productID = "android.test.purchased";  //GosuConstant.iap_product_ids.get(0);
+                String productID = "product1";
                 String mProductName = "Mua gói 100KNB";
                 String currencyUnit = "VND";
                 String amount = "22000.0";
