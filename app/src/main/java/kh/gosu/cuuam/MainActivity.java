@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         setupSDK();
 
         initView();
+
     }
 
     public void setupSDK() {

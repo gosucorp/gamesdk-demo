@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "kh.gamo.cb9yin"
-        minSdkVersion 16
+        minSdkVersion 19
         targetSdkVersion 31
         versionCode 1
         versionName "1.0"
@@ -56,8 +56,8 @@ dependencies {
     //for sigin GG SDK
     implementation 'com.google.android.gms:play-services-auth:17.0.0'
     //for firebase
-    implementation platform('com.google.firebase:firebase-bom:25.12.0')
-    implementation 'com.google.firebase:firebase-analytics:17.2.3'
-    implementation 'com.google.firebase:firebase-messaging:20.1.3'
+    implementation platform('com.google.firebase:firebase-bom:31.1.0')
+    implementation 'com.google.firebase:firebase-analytics:21.2.0'
+    implementation 'com.google.firebase:firebase-messaging:23.1.0'
 
 }
